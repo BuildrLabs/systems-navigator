@@ -1,0 +1,93 @@
+{
+  "jurisdiction": "New York City",
+  "generated_on": "2026-10-16",
+  "policy": "The assistant may only state contact details that appear in this file. Entries older than 180 days are hidden until re-verified.",
+  "entries": [
+    {
+      "id": "nyc-311-tenant-helpline",
+      "name": "NYC 311 - Tenant Helpline / Right to Counsel",
+      "how_to_reach": "Call 311 and ask for the Tenant Helpline (or Right to Counsel)",
+      "purpose": "Connects tenants to free legal advice and, if eligible, free representation in eviction cases",
+      "source_urls": [
+        "https://www.nycourts.gov/new-york-city-housing-court/universal-access-legal-services-law",
+        "https://www.nyc.gov/site/mayorspeu/resources/right-to-counsel.page"
+      ],
+      "verification_level": "primary",
+      "verified_on": "2026-10-16"
+    },
+    {
+      "id": "nyc-ocj-hotline",
+      "name": "HRA Office of Civil Justice - Right to Counsel intake",
+      "phone": ["(718) 557-1379", "(212) 962-4795"],
+      "hours": "Monday-Friday, 9am-5pm",
+      "email": "civiljustice@hra.nyc.gov",
+      "email_instructions": "Include name, telephone number and Housing Court case index number",
+      "purpose": "Find out if you qualify for a free lawyer in your eviction case",
+      "source_urls": ["https://nycourts.gov/courtsnychousing/aboutUniversalAccess.shtml"],
+      "verification_level": "primary",
+      "verified_on": "2026-10-16"
+    },
+    {
+      "id": "nyc-right-to-counsel-info",
+      "name": "NY Courts - Free Lawyers for Tenants (eligibility page)",
+      "url": "https://www.nycourts.gov/new-york-city-housing-court/universal-access-legal-services-law",
+      "purpose": "Eligibility rules and income limits (change over time; always link to the page)",
+      "data": {
+        "income_limits_household_per_year": {"1": 29160, "2": 39440, "3": 49720},
+        "effective_note": "As shown on the page on 2026-10-16",
+        "covered_cases": ["nonpayment", "holdover", "NYCHA termination of tenancy"]
+      },
+      "verification_level": "primary",
+      "verified_on": "2026-10-16"
+    },
+    {
+      "id": "nyc-tenant-resource-portal",
+      "name": "NYC Tenant Resource Portal",
+      "url": "https://www.nyc.gov/TenantResourcePortal",
+      "url_spanish": "https://www.nyc.gov/PortalParaInquilinos",
+      "purpose": "Question-based guide to tenant resources, including help with illegal lockouts and evictions",
+      "source_urls": ["https://sth.cityofnewyork.us/benefit-program/?pid=P152en"],
+      "verification_level": "primary",
+      "verified_on": "2026-10-16"
+    },
+    {
+      "id": "accessnyc",
+      "name": "ACCESS NYC",
+      "url": "https://www.nyc.gov/accessnyc",
+      "purpose": "Screen for city and state benefits including help with housing and bills",
+      "source_urls": ["https://www.nyc.gov/assets/tenantprotection/downloads/pdf/eviction-prevention-brochure.pdf"],
+      "verification_level": "primary",
+      "verified_on": "2026-10-16",
+      "note": "Confirm exact URL on launch"
+    },
+    {
+      "id": "nys-psc-consumer",
+      "name": "NYS Public Service Commission - consumer complaints",
+      "phone": ["1-800-342-3377"],
+      "url": "https://dps.ny.gov/complaints",
+      "purpose": "File a complaint if a utility refuses a reasonable payment arrangement, disputes a shutoff, or fails to restore service",
+      "source_urls": ["https://www.coned.com/-/media/files/coned/documents/accountandbilling/res-rights-english.pdf"],
+      "verification_level": "primary (number appears in Con Edison's rights brochure)",
+      "verified_on": "2026-10-16",
+      "todo": "Confirm TTY number and hours on dps.ny.gov"
+    },
+    {
+      "id": "coned-customer-service",
+      "name": "Con Edison customer service",
+      "phone": ["1-800-752-6633 (1-800-75-CONED)"],
+      "purpose": "Payment agreements, shutoff notices, restoring service",
+      "source_urls": ["https://helpnewyork.com/?p=6396"],
+      "verification_level": "secondary - CONFIRM ON coned.com BEFORE LAUNCH",
+      "verified_on": null
+    },
+    {
+      "id": "legal-aid-society-nyc",
+      "name": "Legal Aid Society (NYC)",
+      "phone": ["(212) 577-3300"],
+      "purpose": "Free legal help; may seek emergency court action in some improper-shutoff cases",
+      "source_urls": ["https://helpnewyork.com/?p=6396"],
+      "verification_level": "secondary - CONFIRM ON legalaidnyc.org BEFORE LAUNCH",
+      "verified_on": null
+    }
+  ]
+}
